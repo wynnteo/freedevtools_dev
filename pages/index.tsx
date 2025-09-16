@@ -86,7 +86,7 @@ const features = [
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "DevTools Hub",
+  "name": "FreeDevTools Hub",
   "applicationCategory": "DeveloperApplication",
   "description": "Professional developer workflow tools for generating API code, GraphQL queries, Docker configurations, GitHub Actions, and Kubernetes YAML manifests.",
   "operatingSystem": "Web Browser",
@@ -100,7 +100,8 @@ const structuredData = {
     "GraphQL Query Generator", 
     "Docker Compose Generator",
     "GitHub Actions Workflow Generator",
-    "Kubernetes YAML Generator"
+    "Kubernetes YAML Generator",
+    "Mock Data Generator"
   ]
 };
 
@@ -111,7 +112,7 @@ export default function Home() {
         title="Professional Developer Workflow Tools"
         description="Generate API code, GraphQL queries, Docker Compose, GitHub Actions workflows, and Kubernetes YAML configurations instantly. Free developer tools to accelerate your workflow."
         keywords="developer tools, API code generator, GraphQL generator, Docker compose generator, GitHub Actions generator, Kubernetes YAML generator, workflow automation, DevOps tools"
-        canonicalUrl="https://devtools-hub.com"
+        canonicalUrl="https://freedevtools.dev"
         structuredData={structuredData}
       />
 
@@ -142,7 +143,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Choose DevTools Hub?
+              Why Choose FreeDevTools Hub?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Built by developers, for developers. Our tools are designed to streamline your workflow and boost productivity.

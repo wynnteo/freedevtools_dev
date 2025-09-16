@@ -788,16 +788,6 @@ if (data.errors) {
               </ol>
             </div>
           </div>
-          
-          <div className="mt-8 p-4 bg-blue-50 rounded-md">
-            <h4 className="font-semibold text-blue-900 mb-2">💡 Pro Tips</h4>
-            <ul className="space-y-1 text-sm text-blue-800">
-              <li>• Use variables for reusable queries with different parameters</li>
-              <li>• Set up common headers like Authorization for API access</li>
-              <li>• Test your queries with the generated fetch code before integrating</li>
-              <li>• Save frequently used schemas and queries for quick access</li>
-            </ul>
-          </div>
         </div>
       </div>
     </Layout>
