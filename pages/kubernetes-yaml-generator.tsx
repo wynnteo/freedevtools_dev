@@ -615,7 +615,13 @@ export default function KubernetesYamlGenerator() {
 
   return (
     <Layout>
-      <SEO structuredData={structuredData} />
+      <SEO 
+        title="Kubernetes YAML Generator"
+        description="Generate Kubernetes YAML manifests with multiple resources, deployments, services, and configurations. Simplify your container orchestration setup."
+        keywords="kubernetes yaml generator, k8s manifest generator, deployment yaml, kubernetes configuration, container orchestration, devops kubernetes tools"
+        canonicalUrl="https://freedevtools.dev/kubernetes-yaml-generator"
+        structuredData={structuredData}
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">

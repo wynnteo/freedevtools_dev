@@ -505,7 +505,13 @@ export default function EnhancedAPIGenerator() {
 
   return (
     <Layout>
-      <SEO structuredData={structuredData} />
+      <SEO 
+        title="Enhanced API Code Generator"
+        description="Generate REST API client code in multiple programming languages including JavaScript, Python, Java, C#, Go, PHP, and Ruby with authentication support."
+        keywords="API code generator, REST API client, HTTP request code, JavaScript fetch, Python requests, API testing, code generator tool, multi-language API client"
+        canonicalUrl="https://freedevtools.dev/api-code-generator"
+        structuredData={structuredData}
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">

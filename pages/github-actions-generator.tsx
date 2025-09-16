@@ -454,7 +454,13 @@ export default function GitHubActionsGenerator() {
 
   return (
     <Layout>
-      <SEO structuredData={structuredData} />
+      <SEO 
+        title="GitHub Actions Generator"
+        description="Generate GitHub Actions YAML files with multiple jobs, triggers, and workflow configuration. Create CI/CD pipelines with ease using our intuitive workflow builder."
+        keywords="github actions generator, ci/cd workflow, yaml generator, github workflow, continuous integration, deployment automation, devops tools"
+        canonicalUrl="https://freedevtools.dev/github-actions-generator"
+        structuredData={structuredData}
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">

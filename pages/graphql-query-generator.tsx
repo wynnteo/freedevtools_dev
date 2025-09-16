@@ -389,7 +389,13 @@ if (data.errors) {
 
   return (
     <Layout>
-      <SEO structuredData={structuredData} />
+      <SEO 
+      title="GraphQL Query Generator"
+      description="Build complex GraphQL queries, mutations, and subscriptions with intelligent schema introspection and auto-completion features. Perfect for API testing and development."
+      keywords="graphql query builder, graphql generator, api testing, schema introspection, mutation generator, subscription builder, graphql tool"
+      canonicalUrl="https://freedevtools.dev/graphql-query-generator"
+      structuredData={structuredData}
+    />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">

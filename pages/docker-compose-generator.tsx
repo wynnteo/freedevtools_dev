@@ -395,7 +395,13 @@ export default function DockerComposeGenerator() {
 
   return (
     <Layout>
-      <SEO structuredData={structuredData} />
+      <SEO 
+        title="Docker Compose Generator"
+        description="Generate Docker Compose YAML files with multiple services, networks, and volumes configuration. Easy-to-use interface for creating production-ready Docker configurations."
+        keywords="docker compose generator, docker compose yaml, container orchestration, docker services, docker networks, docker volumes, containerization tool"
+        canonicalUrl="https://freedevtools.dev/docker-compose-generator"
+        structuredData={structuredData}
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">
